@@ -21,7 +21,6 @@ using namespace std;
 
 
 int missingNumber(vector<int>& arr, int n) {
-    // Your code goes here
     sort(arr.begin(),arr.end());
     for(int i=0; i<n; i++){
         if(arr[i]!=i+1){
@@ -32,7 +31,7 @@ int missingNumber(vector<int>& arr, int n) {
 
 
 
-//{ Driver Code Starts.
+
 int main() {
     
     int n;
