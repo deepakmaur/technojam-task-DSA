@@ -17,7 +17,7 @@ using namespace std;
  
 int main()
 {
-    // Get the array
+   
     int s;
     cout<<"Enter the size : ";
     cin>>s;
@@ -28,15 +28,15 @@ int main()
  
     
  
-    // Print the array
+    
     cout << "Array: ";
     for (int i = 0; i < s; i++)
         cout << arr[i] << " ";
  
-    // Reverse the array
+    
     reverse(arr, arr + s);
  
-    // Print the reversed array
+    
     cout<<endl;
     cout << "Reversed Array: ";
     for (int i = 0; i < s; i++)
